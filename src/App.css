@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+:root {
+  font-family: 'Ubuntu' !important;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  background-image: url(./images/background.jpg);
+  background-size:cover;
+  background-color: #000;
+  position: relative;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+iframe {
+  top: 50px !important;
+}
+
+.App {
+  text-align: center;
+  color: #E4E5F1;
+}
+
+.title {
+  margin-top: 80px;
+  font-family: 'Luckiest Guy';
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+
+.roadmap {
+  margin-top: 60px;
+}
+
+.footer {
+  position: relative;
+  padding-top: 20px;
+  font-size: 12px;
+}
+
+/* Animation */
+
+@keyframes fadeInUp {
+  from {
+      transform: translate3d(0,40px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+      transform: translate3d(0,40px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+  opacity: 0
+}
+
+.fadeInUp {
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+}
+
+.fade-in-content {
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+
+.center-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+.wrapper {
+  height: 0;
+}
+
+.home {
+  margin-left: 15px;
+  margin-right: 15px;
+  min-height: 500px;
+}
+
+.companyName {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: "#E4E5F1";
+    margin-bottom: 30px;
+  }
+  
+  .subtitle {
+    color: #e4e5f1;
+  }
+
+
+.subscribe {
+    color: "#E4E5F1";
+    margin-top: 80px;
+}
+
+  
