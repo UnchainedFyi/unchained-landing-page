@@ -53,7 +53,7 @@ function App() {
               <img alt="unchained company logo" hidden={window && window.innerWidth < 275} src={logo} style={{ width: 24, marginTop: 8 }} />
             </Typography>
             <Button href="https://app.unchained.fyi?#login" style={{textTransform: 'uppercase', color: "#161722", textDecoration: 'none', backgroundColor: '#cacde8', fontWeight: 'bold'}}>
-                Log In
+                DEMO
               </Button>
           </Fragment>
         </Toolbar>
@@ -81,13 +81,31 @@ function App() {
               textTransform: "uppercase",
               marginBottom: 20,
               padding: 10,
-              color: "#161722",
+              margin: 10,
+              color: "#cacde8",
               textDecoration: "none",
-              backgroundColor: "#cacde8",
+              border: '2px solid white',
               fontWeight: "bold",
             }}
+            variant="outlined"
           >
-            START BUILDING FOR FREE
+            API
+          </Button>
+          <Button
+            href="https://github.com/UnchainedFyi/docs"
+            style={{
+              textTransform: "uppercase",
+              marginBottom: 20,
+              padding: 10,
+              margin: 10,
+              color: "#cacde8",
+              border: '2px solid white',
+              textDecoration: "none",
+              fontWeight: "bold",
+            }}
+            variant="outlined"
+          >
+            DOCS
           </Button>
         </Fragment>
         <Fragment>
