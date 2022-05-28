@@ -51,7 +51,7 @@ export const Form = ({ status, message, onValidated }) => {
           placeholder="name@company.com"
           onKeyDown={handleKeyDown}
         />
-        <Button onClick={handleMailingListSubmit} style={{fontSize: 12, margin: 10, textTransform: 'uppercase', color: "#161722", textDecoration: 'none', backgroundColor: '#cacde8', fontWeight: 'bold'}}>
+        <Button onClick={handleMailingListSubmit} style={{fontSize: 12, margin: 10, textTransform: 'capitalize', color: "#161722", textDecoration: 'none', backgroundColor: '#cacde8', fontWeight: 'bold'}}>
           Submit
         </Button>
       </div>

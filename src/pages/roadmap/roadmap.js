@@ -76,7 +76,7 @@ export const Roadmap = () => (
                 </TimelineContent>
             </TimelineItem>
         </Timeline>
-        <Button href="https://forms.gle/AwFmZMBs3YMkaCFe9" className="fade-in-content" target="_blank" rel="noopener noreferrer" style={{textTransform: 'uppercase', color: "#161722", textDecoration: 'none', backgroundColor: '#cacde8', marginTop: 30, marginBottom: 50, fontWeight: 'bold'}}>
+        <Button href="https://forms.gle/AwFmZMBs3YMkaCFe9" className="fade-in-content" target="_blank" rel="noopener noreferrer" style={{textTransform: 'capitalize', color: "#161722", textDecoration: 'none', backgroundColor: '#cacde8', marginTop: 30, marginBottom: 50, fontWeight: 'bold'}}>
             Request a Feature
         </Button>
     </Fragment>
