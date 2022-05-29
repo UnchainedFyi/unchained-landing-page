@@ -46,7 +46,7 @@ export const NavBar = () => {
             'aria-labelledby': 'basic-button',
           }}
         >
-          <MenuItem component={Link} to='/' style={{fontFamily: "Luckiest Guy", letterSpacing: 2, paddingLeft: 15, paddingTop: 10, paddingRight: 10}}>{`unchained.fyi`}</MenuItem>
+          <MenuItem component={Link} to='/' onClick={handleCloseMenu} style={{fontFamily: "Luckiest Guy", letterSpacing: 2, paddingLeft: 15, paddingTop: 10, paddingRight: 10}}>{`unchained.fyi`}</MenuItem>
           <Divider style={{ marginBottom: 10, marginTop: 10 }} />
           <MenuItem component={Link} to="/about" onClick={handleCloseMenu}>About Us</MenuItem>
           <MenuItem component={Link} to="/roadmap" onClick={handleCloseMenu}>Roadmap</MenuItem>
