@@ -52,7 +52,7 @@ export const Home = () => {
                     {isMobile ? (
                         <h2 style={{ marginTop: isMobile ? -10 : 19 }}>The Blockchain Data Lake.<span style={{ fontSize: 15, verticalAlign: 'text-top' }}>™</span></h2>
                     ) : (
-                        <h1>The Blockchain Data Lake.<span style={{ fontSize: 15, verticalAlign: 'text-top' }}>™</span></h1>
+                        <h1>The Blockchain Data Lake<span style={{ fontSize: 15, verticalAlign: 'text-top' }}>™</span></h1>
                     )}
                     <Button
                         href="https://app.unchained.fyi"
@@ -72,7 +72,7 @@ export const Home = () => {
                     </Button>
                 </Fragment>
                 <Fragment>
-                    <h3 className="subscribe" style={{ textTransform: 'capitalize' }}>Subscribe to email blasts:</h3>
+                    <h3 className="subscribe" style={{ textTransform: 'capitalize' }}>Receive Email Updates</h3>
                     <MailchimpSubscribe
                         url={process.env.REACT_APP_MAILCHIMP_URL}
                         render={({ subscribe, status, message }) => (
