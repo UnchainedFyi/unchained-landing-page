@@ -46,13 +46,11 @@ export const NavBar = () => {
             'aria-labelledby': 'basic-button',
           }}
         >
-          <MenuItem component={Link} to='/' onClick={handleCloseMenu} style={{fontFamily: "Luckiest Guy", letterSpacing: 2, paddingLeft: 15, paddingTop: 10, paddingRight: 10}}>{`unchained.fyi`}</MenuItem>
+          <MenuItem component={Link} to='/' onClick={handleCloseMenu} style={{fontFamily: "Luckiest Guy", letterSpacing: 2, paddingLeft: 15, paddingTop: 10, paddingRight: 15}}>{`unchained`}</MenuItem>
           <Divider style={{ marginBottom: 10, marginTop: 10 }} />
-          <MenuItem component={Link} to="/about" onClick={handleCloseMenu}>About Us</MenuItem>
-          <MenuItem component={Link} to="/roadmap" onClick={handleCloseMenu}>Roadmap</MenuItem>
-          <Divider style={{ marginBottom: 10, marginTop: 10 }} />
-          <a style={{textDecoration: "none", color: 'black'}} href="https://app.unchained.fyi"><MenuItem>API</MenuItem></a>
-          <a style={{textDecoration: "none", color: 'black'}} target="_blank" rel="noopener noreferrer" href="https://github.com/UnchainedFyi/docs"><MenuItem>Docs</MenuItem></a>
+          <a style={{textDecoration: "none", color: 'black'}} href="https://app.unchained.fyi"><MenuItem style={{fontFamily: "Luckiest Guy", letterSpacing: 2}}>NEAR API</MenuItem></a>
+          <MenuItem component={Link} to="/roadmap" onClick={handleCloseMenu} style={{fontFamily: "Luckiest Guy", letterSpacing: 2, paddingTop: 15}}>Roadmap</MenuItem>
+          <MenuItem component={Link} to="/about" onClick={handleCloseMenu} style={{fontFamily: "Luckiest Guy", letterSpacing: 2, paddingTop: 15}}>About Us</MenuItem>
         </Menu>
           <Fragment>
             <Typography variant="h6" component={Link} to="/" sx={{ flexGrow: 1 }} style={{ color: "#E4E5F1", marginLeft: -32, textDecoration: 'none' }}>

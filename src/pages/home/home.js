@@ -68,7 +68,7 @@ export const Home = () => {
                         }}
                         variant="outlined"
                     >
-                        Unchained API
+                       Unchained API for NEAR RPCs
                     </Button>
                 </Fragment>
                 <Fragment>
