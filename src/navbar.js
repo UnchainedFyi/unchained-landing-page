@@ -11,6 +11,7 @@ import { Divider } from '@mui/material';
 
 const unchainedLogo = require('./images/logo.png');
 const twitterLogo = require('./images/twitterLogo.png')
+const githubLogo = require('./images/github.png')
 
 export const NavBar = () => {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -53,12 +54,15 @@ export const NavBar = () => {
           <MenuItem component={Link} to="/about" onClick={handleCloseMenu} style={{fontFamily: "Luckiest Guy", letterSpacing: 2, paddingTop: 15}}>About Us</MenuItem>
         </Menu>
           <Fragment>
-            <Typography variant="h6" component={Link} to="/" sx={{ flexGrow: 1 }} style={{ color: "#E4E5F1", marginLeft: -32, textDecoration: 'none' }}>
+            <Typography variant="h6" component={Link} to="/" sx={{ flexGrow: 1 }} style={{ color: "#E4E5F1", textDecoration: 'none' }}>
               <img alt="unchained company logo" hidden={window && window.innerWidth < 275} src={unchainedLogo} style={{ width: 24, marginTop: 8 }} />
             </Typography>
               <div style={{paddingRight: 15}}>
                 <a href="https://twitter.com/unchainedllc" target="_blank" rel="noopener noreferrer">
-                  <img alt="unchained twitter account" src={twitterLogo} style={{width: 20, marginTop: 8}}/>
+                  <img alt="unchained twitter account" src={twitterLogo} style={{width: 20, marginTop: 8, paddingRight: 15}}/>
+                </a>
+                <a href="https://github.com/unchainedfyi" target="_blank" rel="noopener noreferrer">
+                  <img alt="unchained github account" src={githubLogo} style={{width: 20, marginTop: 8}}/>
                 </a>
               </div>
           </Fragment>
