@@ -4,4 +4,4 @@
 
 # unchained.fyi
 
-The open-source landing page for Unchained (unchained.fyi).
+The open-source landing page for Unchained (unchained.fyi). 
